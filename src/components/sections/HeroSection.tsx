@@ -49,12 +49,7 @@ const HeroSection = () => {
   >
           Request a Private Consultation
           </a>
-          <button
-            onClick={() => scrollTo("curriculum")}
-            className="px-10 py-4 border border-gold/30 text-primary font-semibold text-base rounded uppercase tracking-widest hover:bg-primary/5 transition-all"
-          >
-            View the Curriculum
-          </button>
+          
 
           {/* PDF Download Button */}
 <a 
@@ -86,6 +81,13 @@ const HeroSection = () => {
   <div className="absolute inset-0 bg-gold/5 blur-md -z-10 opacity-0 group-hover:opacity-100 transition-opacity" />
 </a>
         </div>
+
+        <button
+            onClick={() => scrollTo("curriculum")}
+            className="px-10 py-4 border border-gold/30 text-primary font-semibold text-base rounded uppercase tracking-widest hover:bg-primary/5 transition-all"
+          >
+            View the Curriculum
+          </button>
 
         {/* Trust line */}
         <p className="mt-12 text-xs text-muted-foreground uppercase tracking-[0.2em]">
